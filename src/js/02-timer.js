@@ -35,7 +35,7 @@ btn.addEventListener('click', handleStart);
 
 function handleStart() {
   const chooseDate = new Date(input.value);
-
+  const nowDate = new Date();
   const getTimerUpdate = setInterval(() => {
     nowDate = new Date();
     nowDate.setMilliseconds(0);
